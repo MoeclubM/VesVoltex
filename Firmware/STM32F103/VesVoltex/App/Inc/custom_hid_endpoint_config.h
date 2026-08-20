@@ -1,0 +1,12 @@
+#ifndef CUSTOM_HID_ENDPOINT_CONFIG_H
+#define CUSTOM_HID_ENDPOINT_CONFIG_H
+
+#include "usbd_customhid.h"
+
+#undef CUSTOM_HID_EPIN_SIZE
+#undef CUSTOM_HID_EPOUT_SIZE
+
+#define CUSTOM_HID_EPIN_SIZE  0x07U
+#define CUSTOM_HID_EPOUT_SIZE 0x08U
+
+#endif
